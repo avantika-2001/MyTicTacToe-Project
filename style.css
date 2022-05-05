@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+body{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTydQuhTevZBhaOCz2L5Wb9IYdpuCDyfYv4tA&usqp=CAU');
+}
+.Heading{
+	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+	font-size: 8vh;
+	font-family: 'Shizuru';
+	background-color: yellowgreen;
+}
+.disp_turn{
+	text-align: center;
+	color: white;
+	padding-top: 0.1vh;
+	font-size: 5vh;
+    margin-top: 0;
+}
+.Play_area{
+	margin-left: 40%;
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 33% 33% 33%;
+    max-width: 20vw;
+    justify-content: center;
+    background-color: rgb(237, 108, 85);
+}
+.box{
+	border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.Player_X{
+	color: rgb(66, 135, 245);
+}
+.Player_0{
+	color: rgb(153, 66, 245);
+}
+.vanish{
+	display: none;        
+}
+#reset{
+	background-color: black;
+	color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.Action{
+	display: flex;
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 50px;
+}
+.bt{
+	border-top: 0;
+}
+.bb{
+	border-bottom: 0;	
+}
+.bl{
+	border-left: 0;
+}
+.br{
+	border-right: 0;
+}
